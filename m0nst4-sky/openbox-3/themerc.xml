@@ -1,0 +1,140 @@
+<!-- This theme is from openbox-minuslab-theme-pack by Dave Foster <daf@minuslab.net>, released under the Artistic License 2.0. -->
+
+<?xml version="1.0"?>
+<openbox_theme version="1" xmlns="http://openbox.org/themerc">
+  <dimensions>
+    <handle>4</handle>
+    <padding x="1" y="1"/>
+  </dimensions>
+  <window>
+    <border>
+      <width>1</width>
+      <primary r="0" g="0" b="0" a="255"/>
+    </border>
+    <clientpadding x="0" y="0"/>
+    <justify>left</justify>
+    <active>
+      <clientpadding r="242" g="242" b="242" a="255"/>
+      <label>
+        <text>
+          <primary r="214" g="254" b="254" a="255"/>
+        </text>
+        <style>parentrelative</style>
+      </label>
+      <buttons>
+        <unpressed>
+          <image r="208" g="224" b="224" a="255"/>
+          <style>parentrelative</style>
+        </unpressed>
+        <pressed>
+          <image r="221" g="221" b="221" a="255"/>
+          <style>flat solid bevel1</style>
+          <primary r="153" g="153" b="153" a="255"/>
+        </pressed>
+        <disabled>
+          <image r="30" g="68" b="101" a="255"/>
+          <style>parentrelative</style>
+        </disabled>
+        <hover>
+          <image r="208" g="224" b="224" a="255"/>
+          <style>flat solid</style>
+          <primary r="148" g="164" b="172" a="255"/>
+        </hover>
+        <toggled-unpressed>
+          <image r="208" g="224" b="224" a="255"/>
+          <style>parentrelative</style>
+        </toggled-unpressed>
+      </buttons>
+      <titlebar>
+        <style>raised solid bevel1</style>
+        <primary r="56" g="56" b="56" a="255"/>
+        <border r="0" g="0" b="0" a="255"/>
+      </titlebar>
+      <handle>
+        <style>raised solid bevel1</style>
+        <primary r="56" g="56" b="56" a="255"/>
+      </handle>
+      <grip>
+        <style>parentrelative</style>
+      </grip>
+    </active>
+    <inactive>
+      <clientpadding r="242" g="242" b="242" a="255"/>
+      <label>
+        <text>
+          <primary r="136" g="136" b="136" a="255"/>
+        </text>
+        <style>parentrelative</style>
+      </label>
+      <buttons>
+        <unpressed>
+          <image r="208" g="224" b="224" a="255"/>
+          <style>parentrelative</style>
+        </unpressed>
+        <pressed>
+          <image r="208" g="224" b="224" a="255"/>
+          <style>flat border solid bevel1</style>
+          <primary r="200" g="200" b="200" a="255"/>
+          <border r="229" g="229" b="229" a="255"/>
+        </pressed>
+        <disabled>
+          <image r="242" g="242" b="242" a="255"/>
+          <style>parentrelative</style>
+        </disabled>
+        <hover>
+          <image r="208" g="224" b="224" a="255"/>
+          <style>flat solid</style>
+          <primary r="246" g="246" b="246" a="255"/>
+        </hover>
+        <toggled-unpressed>
+          <image r="208" g="224" b="224" a="255"/>
+          <style>parentrelative</style>
+        </toggled-unpressed>
+      </buttons>
+      <titlebar>
+        <style>raised solid bevel1</style>
+        <primary r="56" g="56" b="56" a="255"/>
+        <border r="0" g="0" b="0" a="255"/>
+      </titlebar>
+      <handle>
+        <style>raised solid bevel1</style>
+        <primary r="56" g="56" b="56" a="255"/>
+      </handle>
+      <grip>
+        <style>parentrelative</style>
+      </grip>
+    </inactive>
+  </window>
+  <menu>
+    <border>
+      <width>1</width>
+      <primary r="0" g="0" b="0" a="255"/>
+    </border>
+    <justify>left</justify>
+    <overlap>2</overlap>
+    <title>
+      <text>
+        <primary r="136" g="136" b="136" a="255"/>
+      </text>
+      <style>raised solid bevel1</style>
+      <primary r="56" g="56" b="56" a="255"/>
+    </title>
+    <inactive>
+      <primary r="208" g="224" b="224" a="255"/>
+    </inactive>
+    <disabled>
+      <primary r="0" g="0" b="0" a="255"/>
+    </disabled>
+    <active>
+      <text>
+        <primary r="0" g="0" b="0" a="255"/>
+      </text>
+      <style>flat solid</style>
+      <primary r="214" g="254" b="254" a="255"/>
+    </active>
+    <entries>
+      <style>raised solid bevel1</style>
+      <primary r="56" g="56" b="56" a="255"/>
+    </entries>
+  </menu>
+</openbox_theme>

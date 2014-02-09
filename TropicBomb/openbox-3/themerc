@@ -1,0 +1,1232 @@
+!! This theme is from openbox-minuslab-theme-pack by Dave Foster <daf@minuslab.net>,
+!! released under the Artistic License 2.0.
+
+!! This theme is from openbox-minuslab-theme-pack by Dave Foster <daf@minuslab.net>,
+!! released under the Artistic License 2.0.
+
+
+menu.title.bg: flat
+menu.title.bg.color: #99cc33
+menu.title.text.color: #000000
+menu.title.text.justify: left
+
+menu.items.bg: flat solid
+menu.items.bg.color: #b9d56e
+! menu.items.bg.border.color: #dedede
+menu.items.text.color: #000000
+menu.items.justify: left
+
+menu.items.disabled.text.color: #d7d7d7
+menu.bullet.image.color: #000000
+menu.bullet.selected.image.color: #ffffff
+
+menu.items.active.bg: flat solid 
+menu.items.active.bg.color: #000000
+menu.items.active.text.color: #b9d56e
+
+!! General window settings
+window.label.text.justify: right
+
+!! focused window settings
+window.active.client.color: #909498
+
+window.active.title.bg: focus: flat
+window.active.title.bg.color: #99CC33
+! window.active.title.bg.border.color: #e6e6e6
+
+window.active.handle.bg: flat
+window.active.handle.bg.color: #99cc33
+
+window.active.grip.bg: flat
+window.active.grip.bg.color: #666600
+
+window.active.label.bg: parentrelative
+window.active.label.text.color:  #000000
+
+window.active.button.unpressed.bg: parentrelative
+window.active.button.unpressed.image.color: #000000
+
+window.active.button.pressed.bg: parentrelative
+window.active.button.pressed.image.color: #666666
+
+!! unfocused window settings
+window.inactive.client.color: #404850
+
+window.inactive.title.bg: flat
+window.inactive.title.bg.color: #b9d56e
+
+window.inactive.handle.bg: flat
+window.inactive.handle.bg.color: #b9d56e
+
+window.inactive.grip.bg: flat
+window.inactive.grip.bg.color: #666600
+
+window.inactive.label.bg: parentrelative
+window.inactive.label.text.color: #666600
+
+window.inactive.button.unpressed.bg: parentrelative
+window.inactive.button.unpressed.image.color: #666600
+
+! does this ever happen?
+window.inactive.button.pressed.bg: parentrelative
+window.inactive.button.pressed.bg.colorTo: #ffffff
+
+!#buttons new
+window.active.button.disabled.bg: flat
+window.active.button.disabled.bg.color: #20587b
+window.active.button.disabled.image.color: #234372
+
+window.inactive.button.disabled.bg: flat
+window.inactive.button.disabled.bg.color: #20587b
+window.inactive.button.disabled.image.color: #20587b
+
+window.active.button.toggled.bg: flat vertical gradient
+window.active.button.toggled.bg.color: #c6d5c0
+window.active.button.toggled.bg.colorTo: #8b9687
+window.active.button.toggled.image.color: #ffffff
+
+window.inactive.button.toggled.bg: flat vertical gradient
+window.inactive.button.toggled.bg.color: #d6d6d6
+window.inactive.button.toggled.bg.colorTo: #9a9a9a
+window.inactive.button.toggled.image.color: #969696
+
+!! Global width settings
+border.width: 3
+padding.width: 2
+padding.height: 1
+window.handle.width: 3
+window.client.padding.width: 0
+
+!! Miscellaneous settings
+border.color: #000000
+
+!! fonts
+window.active.label.text.font: Bitstream Vera Sans:bold:size=9
+window.inactive.label.text.font: Bitstream Vera Sans:bold:size=9
+menu.items.font:  Trebuchet Ms:size=9
+menu.title.text.font: Trebuchet Ms:bold:size=9
+
+!! This theme is from openbox-minuslab-theme-pack by Dave Foster <daf@minuslab.net>,
+!! released under the Artistic License 2.0.
+
+!! taqua3 by nightm4re <daf@minuslab.net>
+!! based off cerement's abs bb flux (http://absinthe182.com)
+!! colors are from a gvim scheme (unknown)
+
+!!---------------------------------------------------------------------------
+!! Dimensions
+
+border.width:				1
+border.color:				#707070
+
+padding.width:						2
+window.handle.width:				3
+window.client.padding.width:		0
+
+menu.overlap:				0
+
+!!---------------------------------------------------------------------------
+!! Fonts
+
+window.active.label.text.font:		Trebuchet Ms:pixelsize=11:shadow=n
+window.label.text.justify:		left
+
+menu.title.text.font:			Trebuchet Ms:pixelsize=11:shadow=n
+menu.title.text.justify:		center
+
+menu.items.font:			Trebuchet Ms:pixelsize=11
+
+!!---------------------------------------------------------------------------
+!! Menu Settings
+
+menu.title.bg:				flat gradient crossdiagonal 
+menu.title.bg.color:			#d6dd8b
+menu.title.bg.colorTo:			#f6fdab
+menu.title.text.color:			#000080
+
+menu.items.bg:				flat solid
+menu.items.bg.color:			#ffffff
+menu.items.text.color:			#707070
+
+menu.items.active.bg:			flat solid
+menu.items.active.bg.color:		#dbf2ff
+menu.items.active.text.color:		#000080
+
+menu.items.disabled.text.color:		#444438
+
+!!---------------------------------------------------------------------------
+!! Window Settings
+
+window.active.title.bg:			flat gradient crossdiagonal 
+window.active.title.bg.color:		#d6dd8b
+window.active.title.bg.colorTo:		#f6fdab
+
+window.active.label.bg:				parentrelative
+window.active.label.text.color: 	#000080
+
+window.active.handle.bg:			flat gradient vertical
+window.active.handle.bg.color:		#d6dd8b
+window.active.handle.bg.colorTo:	#ffffff
+
+window.active.grip.bg:			flat solid
+window.active.grip.bg.color:		#000080
+
+window.inactive.title.bg:		flat solid
+window.inactive.title.bg.color:		#ffffff
+
+window.inactive.label.bg:		parentrelative
+window.inactive.label.text.color:	#707070
+
+window.inactive.handle.bg:		flat solid
+window.inactive.handle.bg.color:	#ffffff
+
+window.inactive.grip.bg:		flat solid
+window.inactive.grip.bg.color:		#ffffff
+
+!!---------------------------------------------------------------------------
+!! Button Settings
+
+window.active.button.unpressed.bg:			parentrelative 
+window.active.button.unpressed.image.color:		#999999
+
+window.active.button.pressed.bg:			flat solid border
+window.active.button.pressed.bg.color:			#d6dd8b
+window.active.button.pressed.image.color:		#000080
+window.active.button.pressed.bg.border.color:	#000080
+
+window.active.button.hover.bg:			flat solid border 
+window.active.button.hover.bg.color:			#ffffff
+window.active.button.hover.image.color:			#999999
+window.active.button.hover.bg.border.color:		#999999
+
+window.active.button.disabled.bg:			parentrelative
+window.active.button.disabled.image.color:		#dddddd
+
+window.active.button.toggled.bg:			flat solid border
+window.active.button.toggled.bg.color:			#dddddd
+window.active.button.toggled.image.color:		#22221c
+
+window.inactive.button.unpressed.bg:			parentrelative
+window.inactive.button.unpressed.image.color:		#dddddd
+
+window.inactive.button.hover.bg:			flat solid border
+window.inactive.button.hover.bg.color:			#ffffff
+window.inactive.button.hover.image.color:			#999999
+window.inactive.button.hover.bg.border.color:		#999999
+
+window.inactive.button.pressed.bg:			flat solid border
+window.inactive.button.pressed.bg.color:			#d6dd8b
+window.inactive.button.pressed.image.color:		#000080
+window.inactive.button.pressed.bg.border.color:	#000080
+
+window.inactive.button.disabled.bg:			parentrelative	
+window.inactive.button.disabled.image.color:		#eeeeee
+
+window.inactive.button.toggled.bg:			flat solid border
+window.inactive.button.toggled.bg.color:			#dddddd
+window.inactive.button.toggled.image.color:		#22221c
+!! This theme is from openbox-minuslab-theme-pack by Dave Foster <daf@minuslab.net>,
+!! released under the Artistic License 2.0.
+
+
+menu.title.bg: flat
+menu.title.bg.color: #20587b
+menu.title.text.color: #ffffff
+menu.title.text.justify: left
+
+menu.items.bg: flat solid
+menu.items.bg.color: #ffffff
+menu.items.bg.border.color: #bbb8a9
+menu.items.text.color: #81807c
+menu.items.justify: left
+
+menu.items.disabled.text.color: #d7d7d7
+menu.bullet.image.color: #000000
+menu.bullet.selected.image.color: #ffffff
+
+menu.items.active.bg: flat border
+menu.items.active.bg.color: #20587b
+menu.items.active.bg.border.color: #146d8d
+menu.items.active.text.color: #ffffff
+
+!! General window settings
+window.label.text.justify: left
+
+!! focused window settings
+window.active.client.color: #909498
+
+window.active.title.bg: focus: flat
+window.active.title.bg.color: #20587b
+window.active.title.bg.border.color: #e6e6e6
+
+window.active.handle.bg: flat
+window.active.handle.bg.color: #f3f3f3
+
+window.active.grip.bg: flat
+window.active.grip.bg.color: #20587b
+
+window.active.label.bg: parentrelative
+window.active.label.text.color:  #ffffff
+
+window.active.button.unpressed.bg: flat
+window.active.button.unpressed.bg.color: #20587b
+window.active.button.unpressed.image.color: #ffffff
+
+window.active.button.pressed.bg: parentrelative
+! window.active.button.pressed.bg.color: parentrelative
+window.active.button.pressed.image.color: #cdcdcd
+
+!! unfocused window settings
+window.inactive.client.color: #404850
+
+window.inactive.title.bg: flat
+window.inactive.title.bg.color: #20587b
+
+window.inactive.handle.bg: flat
+window.inactive.handle.bg.color: #f3f3f3
+
+window.inactive.grip.bg: flat
+window.inactive.grip.bg.color: #ffffff
+
+window.inactive.label.bg: parentrelative
+#window.inactive.label.text.color: #e5e5e5
+window.inactive.label.text.color: #dedede
+
+window.inactive.button.unpressed.bg: flat
+window.inactive.button.unpressed.bg.color: #20587b
+window.inactive.button.unpressed.image.color: #146d8d
+
+window.inactive.button.pressed.bg: flat vertical gradient
+window.inactive.button.pressed.bg.color: #cacaca
+window.inactive.button.pressed.bg.colorTo: #ffffff
+
+!#buttons new
+window.active.button.disabled.bg: flat
+window.active.button.disabled.bg.color: #20587b
+window.active.button.disabled.image.color: #234372
+
+window.inactive.button.disabled.bg: flat
+window.inactive.button.disabled.bg.color: #20587b
+window.inactive.button.disabled.image.color: #20587b
+
+window.active.button.toggled.bg: flat vertical gradient
+window.active.button.toggled.bg.color: #c6d5c0
+window.active.button.toggled.bg.colorTo: #8b9687
+window.active.button.toggled.image.color: #ffffff
+
+window.inactive.button.toggled.bg: flat vertical gradient
+window.inactive.button.toggled.bg.color: #d6d6d6
+window.inactive.button.toggled.bg.colorTo: #9a9a9a
+window.inactive.button.toggled.image.color: #969696
+
+!! Global width settings
+border.width: 1
+padding.width: 2
+padding.height: 1
+window.handle.width: 3
+window.client.padding.width: 0
+
+!! Miscellaneous settings
+border.color: #146d8d
+
+!! fonts
+window.active.label.text.font: Verdana:bold:size=6
+window.inactive.label.text.font: Verdana:bold:size=6
+menu.items.font:  Verdana:size=6
+menu.title.text.font: Verdana:bold:size=6
+
+!! This theme is from openbox-minuslab-theme-pack by Dave Foster <daf@minuslab.net>,
+!! released under the Artistic License 2.0.
+
+!! flax by nightm4re <daf@minuslab.net>
+!! based off cerement's abs bb flux (http://absinthe182.com)
+
+!!---------------------------------------------------------------------------
+!! Dimensions
+
+border.width:				1
+border.color:				#22221c
+
+padding.width:				1
+window.handle.width:			3
+window.client.padding.width:		0
+
+menu.overlap:				0
+
+!!---------------------------------------------------------------------------
+!! Fonts
+
+window.active.label.text.font:		Bitstream Vera Sans:pixelsize=10:shadow=y
+window.label.text.justify:		right
+
+menu.title.text.font:			Bitstream Vera Sans:pixelsize=10:shadow=y
+menu.title.text.justify:		center
+
+menu.items.font:			Bitstream Vera Sans:pixelsize=10
+
+!!---------------------------------------------------------------------------
+!! Menu Settings
+
+menu.title.bg:				flat gradient crossdiagonal
+menu.title.bg.color:			#d3deda
+menu.title.bg.colorTo:			#9fbfc1
+menu.title.text.color:			#22221c
+
+menu.items.bg:				flat solid
+menu.items.bg.color:			#e6e6e0
+menu.items.text.color:			#22221c
+
+menu.items.active.bg:			flat solid
+menu.items.active.bg.color:		#9fbfc1
+menu.items.active.text.color:		#22221c
+
+menu.items.disabled.text.color:		#444438
+
+!!---------------------------------------------------------------------------
+!! Window Settings
+
+window.active.title.bg:			flat solid
+window.active.title.bg.color:		#e6e6e0
+
+window.active.label.bg:			flat gradient crossdiagonal border
+window.active.label.bg.color:		#d3deda
+window.active.label.bg.colorTo:		#9fbfc1
+window.active.label.text.color:		#22221c
+
+window.active.handle.bg:		flat gradient crossdiagonal
+window.active.handle.bg.color:		#d3deda
+window.active.handle.bg.colorTo:	#9fbfc1
+
+window.active.grip.bg:			flat solid
+window.active.grip.bg.color:		#9fbfc1
+
+window.inactive.title.bg:		flat solid
+window.inactive.title.bg.color:		#e6e6e0
+
+window.inactive.label.bg:		parentrelative
+window.inactive.label.text.color:	#22221c
+
+window.inactive.handle.bg:		flat solid
+window.inactive.handle.bg.color:	#e6e6e0
+
+window.inactive.grip.bg:		flat solid
+window.inactive.grip.bg.color:		#e6e6e0
+
+!!---------------------------------------------------------------------------
+!! Button Settings
+
+window.active.button.unpressed.bg:			parentrelative
+window.active.button.unpressed.image.color:		#22221c
+
+window.active.button.pressed.bg:			flat gradient crossdiagonal border
+window.active.button.pressed.bg.color:			#d3deda
+window.active.button.pressed.bg.colorTo:			#9fbfc1
+
+window.active.button.hover.bg:			flat solid border
+window.active.button.hover.bg.color:			#e6e6e0
+
+window.active.button.disabled.bg:			parentrelative
+window.active.button.disabled.image.color:		#9fbfc1
+
+!! without this it looks right
+!!window.active.button.toggled.bg:			flat solid
+!!window.active.button.toggled.bg.color:			#9fbfc1
+
+window.inactive.button.unpressed.bg:			parentrelative
+window.inactive.button.unpressed.image.color:		#999999
+
+window.inactive.button.hover.bg:			flat solid border
+window.inactive.button.hover.bg.color:			#e6e6e0
+window.inactive.button.pressed.bg:			flat gradient crossdiagonal border
+window.inactive.button.pressed.bg.color:		#d3deda
+window.inactive.button.pressed.bg.colorTo:		#9fbfc1
+
+window.inactive.button.disabled.bg:			flat solid
+window.inactive.button.disabled.bg.image.color:		#444438
+
+!! window.inactive.button.toggled.bg:			flat solid
+!! window.inactive.button.toggled.bg.color:		#444438
+!! This theme is from openbox-minuslab-theme-pack by Dave Foster <daf@minuslab.net>,
+!! released under the Artistic License 2.0.
+
+!! m0nst4-sky - hacked together by Dave Foster <daf@minuslab.net>
+!! Color mod of syscrash2k's rendition of okrait's pekwm m0nst4 port
+!! of chr!z's fluxbox theme.  Say that in one breath.
+
+!! pekwm theme: http://www.hewphoria.com/?p=themes&id=64
+!! fluxbox theme: http://www.deviantart.com/deviation/581961/
+
+!! Requires the "nu" font from the artwiz-aleczapka-en package.
+!! I take no responsibility for the mess below :P
+
+!! Menu settings
+!! #1e4465 = accent colour, change to whatever if you like
+!! i be a mess
+!! bg #f2f2f2
+
+menu.title.bg:  raised solid bevel1
+menu.title.bg.color: #383838
+menu.title.text.color: #888888
+
+menu.items.bg: raised solid bevel1
+menu.items.bg.color: #383838
+menu.items.text.color: #d0e0e0
+menu.items.disabled.text.color: #000000
+
+menu.items.active.bg: flat solid
+menu.items.active.bg.color: #d6fefe
+menu.items.active.text.color: #000000
+
+!! General window settings
+*.justify: left
+
+!! focused window settings
+window.active.client.color: #f2f2f2
+
+window.active.title.bg: raised solid bevel1
+window.active.title.bg.color: #383838
+window.active.title.bg.border.color: #000000
+
+window.active.handle.bg: raised solid bevel1
+window.active.handle.bg.color: #383838
+
+window.active.grip.bg: parentrelative
+
+window.active.label.bg: parentrelative
+window.active.label.text.color: #d6fefe
+
+window.active.button.*.bg: parentrelative
+window.active.button.*.image.color: #d0e0e0
+
+window.active.button.pressed.bg: flat solid bevel1
+window.active.button.pressed.bg.color: #999999
+window.active.button.pressed.image.color: #dddddd
+
+!#hover?
+window.active.button.hover.bg: flat solid
+!#window.active.button.hover.image.color: #ffffff
+window.active.button.hover.bg.color: #94a4ac
+
+window.active.button.disabled.image.color: #1e4465
+
+!! unfocused window settings
+window.inactive.client.color: #f2f2f2
+
+window.inactive.title.bg: raised solid bevel1
+window.inactive.title.bg.color: #383838
+window.inactive.title.bg.border.color: #000000
+
+window.inactive.handle.bg: raised solid bevel1
+window.inactive.handle.bg.color: #383838
+window.inactive.grip.bg: parentrelative
+
+window.inactive.label.bg: parentrelative
+window.inactive.label.text.color: #888888
+
+window.inactive.button.*.bg: parentrelative
+window.inactive.button.*.image.color: #d0e0e0
+
+window.inactive.button.pressed.bg: flat border solid bevel1
+window.inactive.button.pressed.bg.color: #c8c8c8
+window.inactive.button.pressed.bg.border.color: #e5e5e5
+
+window.inactive.button.disabled.image.color:  #f2f2f2
+
+!#hover?
+window.inactive.button.hover.bg: flat solid
+!#window.active.button.hover.image.color: #ffffff
+window.inactive.button.hover.bg.color: #f6f6f6
+
+!! Global width settings
+borderWidth: 1
+padding.width: 1
+window.handle.width: 4
+window.client.padding.width: 0
+menu.overlap: 2
+
+!! Miscellaneous settings
+border.color: #000000
+!! font me!
+window.active.label.text.font: nu
+window.inactive.label.text.font: nu
+
+menu.title.text.font: nu
+menu.items.font: nu
+
+!! This theme is from openbox-minuslab-theme-pack by Dave Foster <daf@minuslab.net>,
+!! released under the Artistic License 2.0.
+
+!#sort of gorilla i guess, the point of these 'ximian ports' is so openbox is usable with all the other cool ximian artwork available, i guess.
+
+!! Menu settings
+
+menu.title.bg: raised flat
+menu.title.bg.color: #dddbd6
+menu.title.text.color: #9a2939
+menu.title.text.justify: right
+
+menu.items.bg: raised flat
+menu.items.bg.color: #dddbd6
+menu.items.text.color: #60646b
+menu.items.text.justify: right
+menu.items.disabled.text.color: #d5dad5
+menu.bullet.image.color: #60646b
+menu.bullet.selected.image.color: #9a2939
+
+menu.items.active.bg: flat solid
+menu.items.active.bg.color: #60646b
+menu.items.active.text.color: #dddbd6
+
+window.label.text.justify: right
+
+!! focused window settings
+window.active.client.color: #f7f7f7
+
+window.active.title.bg: raised flat
+window.active.title.bg.color: #dddbd6
+!! window.active.title.bg.colorTo: #9f9f93
+
+window.active.handle.bg:  flat
+window.active.handle.bg.color: #dddbd6
+!! window.active.handle.bg.colorTo: #9f9f93
+
+!! window.active.grip.bg:  parentrelative
+window.active.grip.bg: flat
+window.active.grip.bg.color: #9a2939
+
+window.active.label.bg: parentrelative
+! window.active.label.text.color: #e08816
+window.active.label.text.color: #9a2939
+
+window.active.button.unpressed.bg: flat border
+window.active.button.unpressed.bg.color: #dddbd6
+window.active.button.unpressed.image.color: #60646b
+window.active.button.unpressed.bg.border.color: #60646b
+
+window.active.button.pressed.bg: flat border solid
+window.active.button.pressed.bg.color: #dddbd6
+window.active.button.pressed.image.color: #9a2939
+window.active.button.pressed.bg.border.color: #9a2939
+
+!! unfocused window settings
+window.inactive.client.color: #f7f7f7
+window.inactive.title.bg: raised flat
+window.inactive.title.bg.color: #dddbd6
+!! window.inactive.title.bg.colorTo: #a5a2a5
+
+window.inactive.handle.bg:  raised flat vertical
+window.inactive.handle.bg.color: #dedfce
+window.inactive.handle.bg.colorTo: #dedfce
+
+window.inactive.grip.bg: parentrelative
+window.inactive.grip.bg.color: #e6e6e6
+window.inactive.grip.bg.colorTo: #cdcac7
+
+window.inactive.label.bg: parentrelative
+#window.inactive.label.text.color: #ffffff
+window.inactive.label.text.color: #60646b
+
+window.inactive.button.unpressed.bg: flat border 
+window.inactive.button.unpressed.bg.color: #dedfce
+window.inactive.button.unpressed.image.color:  #acaeac
+window.inactive.button.unpressed.bg.border.color: #c5c6c5
+
+window.inactive.button.pressed.bg: flat border solid
+window.inactive.button.pressed.bg.color: #c5c2c5
+window.inactive.button.pressed.bg.colorTo: #000000
+window.inactive.button.pressed.bg.border.color: #7b7d7b
+window.inactive.button.pressed.image.color: #dddddd
+
+!#
+window.active.button.disabled.bg: flat border
+window.active.button.disabled.bg.color: #990000
+window.active.button.disabled.bg.colorTo: #990000
+window.active.button.disabled.image.color: #ffffff
+window.active.button.disabled.bg.border.color: #000000
+#
+window.inactive.button.disabled.bg: flat border
+window.inactive.button.disabled.bg.color: #d5dad5
+window.inactive.button.disabled.image.color:  #7b7d7b
+window.inactive.button.disabled.bg.border.color: #000000
+
+window.active.button.toggled.bg: flat border
+window.active.button.toggled.bg.color: #9a2939
+window.active.button.toggled.image.color: #dddbd6
+window.active.button.toggled.bg.border.color: #60646b
+
+!! Global width settings
+borderWidth: 1
+padding.width: 1
+window.handle.width: 3
+window.client.padding.width: 0
+border.color: #60646b
+menu.overlap: 0
+
+
+!! font me!
+!!window.active.label.text.font: nu:pixelsize=9
+!!window.inactive.label.text.font: nu:pixelsize=9
+!!menu.items.font: nu:pixelsize=9
+!! menu.items.font: Bitstream Vera Sans:pixelsize=9
+!!menu.title.text.font: nu:pixelsize=9
+window.active.label.text.font: Tixus:bold:pixelsize=10
+window.inactive.label.text.font: Tixus:bold:pixelsize=10
+menu.items.font: Tixus:pixelsize=10
+menu.title.text.font: Tixus:bold:pixelsize=10
+!! This theme is from openbox-minuslab-theme-pack by Dave Foster <daf@minuslab.net>,
+!! released under the Artistic License 2.0.
+
+
+!! Menu settings
+
+menu.title.bg: 								raised gradient vertical bevel1
+menu.title.bg.color: 						#dddddd
+menu.title.bg.colorTo:						#cacaca
+menu.title.text.color: 						#000000
+menu.title.text.justify: 					left
+
+menu.items.bg: 								flat solid
+menu.items.bg.color: 						#d7d7d7
+menu.items.text.color: 						#000000
+menu.items.justify: 						left
+
+menu.items.disabled.text.color: 			#888888
+menu.bullet.image.color: 					#000000
+menu.bullet.selected.image.color: 			#ffffff
+
+menu.items.active.bg:						raised gradient vertical bevel3
+menu.items.active.bg.color:					#e8e8e8
+menu.items.active.bg.colorTo:				#eaeaea
+menu.items.active.text.color:				#666666
+!menu.items.active.bg: 						flat
+!menu.items.active.bg.color: 				#888888
+!menu.items.active.text.color: 				black
+
+!! General window settings
+window.label.text.justify: 					left
+
+!! focused window settings
+window.active.client.color: 				#d2d2d2
+
+window.active.title.bg: 					raised gradient vertical
+window.active.title.bg.color: 				#dddddd
+window.active.title.bg.colorTo:				#cacaca
+window.active.title.bg.border.color: 		#666666
+
+window.active.handle.bg: 					flat solid
+window.active.handle.bg.color: 				#d2d2d2
+
+window.active.grip.bg: 						flat solid
+window.active.grip.bg.color: 				#d2d2d2
+
+window.active.label.bg: 					parentrelative
+window.active.label.text.color:  			#000000
+
+window.active.button.unpressed.bg:			parentrelative
+window.active.button.unpressed.image.color: #666666
+
+window.active.button.pressed.bg: 			parentrelative
+window.active.button.pressed.image.color: 	black
+
+!! unfocused window settings
+window.inactive.client.color: #404850
+
+window.inactive.title.bg: 					flat
+window.inactive.title.bg.color: 			#d7d7d7
+
+window.inactive.handle.bg: 					flat
+window.inactive.handle.bg.color: 			#d7d7d7
+
+window.inactive.grip.bg: 					flat
+window.inactive.grip.bg.color: 				#d7d7d7
+
+window.inactive.label.bg: 					parentrelative
+window.inactive.label.text.color: 			#888888
+
+window.inactive.button.unpressed.bg: 		parentrelative
+window.inactive.button.unpressed.image.color: #b3b3b3
+
+window.inactive.button.pressed.bg: 			parentrelative
+window.inactive.button.pressed.image.color: #666666
+
+!#buttons new
+window.active.button.disabled.bg: 			parentrelative
+window.active.button.disabled.image.color: 	#cccccc
+
+window.inactive.button.disabled.bg: 		parentrelative
+window.inactive.button.disabled.image.color: #cccccc
+
+window.active.button.toggled.bg: 			parentrelative	
+window.active.button.toggled.image.color:   #444444
+
+window.inactive.button.toggled.bg: 			parentrelative
+window.inactive.button.toggled.image.color: #555555
+
+!************
+!** widths **
+!************
+border.width: 								1
+padding.width: 								2
+window.handle.width: 						2
+window.client.padding.width: 				0
+
+border.color: 								#8c8c8c
+
+!************
+!** fonts  **
+!************
+window.active.label.text.font: 				Bitstream Vera Sans:pixelsize=10
+window.inactive.label.text.font: 			Bitstream Vera Sans:pixelsize=10
+menu.items.font:  							Bitstream Vera Sans:pixelsize=10
+menu.title.text.font: 						Bitstream Vera Sans:pixelsize=10
+!! This theme is from openbox-minuslab-theme-pack by Dave Foster <daf@minuslab.net>,
+!! released under the Artistic License 2.0.
+
+
+menu.title.bg: flat
+menu.title.bg.color: #666600
+menu.title.text.color: #ffcc00
+menu.title.text.justify: left
+
+menu.items.bg: flat solid
+menu.items.bg.color: #999966
+! menu.items.bg.border.color: #dedede
+menu.items.text.color: #ffffff
+menu.items.justify: left
+
+menu.items.disabled.text.color: #d7d7d7
+menu.bullet.image.color: #000000
+menu.bullet.selected.image.color: #ffffff
+
+menu.items.active.bg: flat solid
+menu.items.active.bg.color: #666600
+! menu.items.active.bg.border.color: #146d8d
+menu.items.active.text.color: #ffcc00
+
+!! General window settings
+window.label.text.justify: right
+
+!! focused window settings
+window.active.client.color: #909498
+
+window.active.title.bg: focus: flat
+window.active.title.bg.color: #666600
+! window.active.title.bg.border.color: #e6e6e6
+
+window.active.handle.bg: flat
+window.active.handle.bg.color: #666600
+
+window.active.grip.bg: flat
+window.active.grip.bg.color: #ffcc00
+
+window.active.label.bg: parentrelative
+window.active.label.text.color:  #ffcc00
+
+window.active.button.unpressed.bg: parentrelative
+! window.active.button.unpressed.bg.color: #999966
+window.active.button.unpressed.image.color: #ffcc00
+
+window.active.button.pressed.bg: parentrelative
+! window.active.button.pressed.bg.color: parentrelative
+window.active.button.pressed.image.color: #ffffff
+
+!! unfocused window settings
+window.inactive.client.color: #404850
+
+window.inactive.title.bg: flat
+window.inactive.title.bg.color: #999966
+
+window.inactive.handle.bg: flat
+window.inactive.handle.bg.color: #999966
+
+window.inactive.grip.bg: flat
+window.inactive.grip.bg.color: #666600
+
+window.inactive.label.bg: parentrelative
+window.inactive.label.text.color: #dedede
+
+window.inactive.button.unpressed.bg: parentrelative
+window.inactive.button.unpressed.image.color: #dedede
+
+! does this ever happen?
+window.inactive.button.pressed.bg: parentrelative
+window.inactive.button.pressed.bg.colorTo: #ffffff
+
+!#buttons new
+window.active.button.disabled.bg: flat
+window.active.button.disabled.bg.color: #20587b
+window.active.button.disabled.image.color: #234372
+
+window.inactive.button.disabled.bg: flat
+window.inactive.button.disabled.bg.color: #20587b
+window.inactive.button.disabled.image.color: #20587b
+
+window.active.button.toggled.bg: flat solid border
+window.active.button.toggled.bg.color: #444400
+window.active.button.toggled.image.color: #ffffff
+
+window.inactive.button.toggled.bg: flat solid border
+window.inactive.button.toggled.bg.color: #777744
+window.inactive.button.toggled.image.color: #969696
+
+!! Global width settings
+border.width: 1
+padding.width: 2
+padding.height: 1
+window.handle.width: 3
+window.client.padding.width: 0
+
+!! Miscellaneous settings
+border.color: #333300
+
+!! fonts
+window.active.label.text.font: Bitstream Vera Sans:bold:size=10
+window.inactive.label.text.font: Bitstream Vera Sans:bold:size=10
+menu.items.font:  Trebuchet Ms:size=9
+menu.title.text.font: Trebuchet Ms:bold:size=10
+
+!! This theme is from openbox-minuslab-theme-pack by Dave Foster <daf@minuslab.net>,
+!! released under the Artistic License 2.0.
+
+!! TropicOcean by GaMMa
+!! More themes @ http://www.gammaradiation.tk/
+!! Menu settings
+
+menu.title.bg: vertical gradient
+menu.title.bg.color: #8fb921
+menu.title.bg.colorTo: #bce94f
+menu.title.text.color: black
+menu.title.text.justify: left
+
+menu.items.bg: flat solid
+menu.items.bg.color: #ffffff
+menu.items.text.color: #666666
+menu.items.text.justify: left
+
+menu.items.disabled.text.color: #d7d7d7
+menu.bullet.image.color: #000000
+menu.bullet.selected.image.color: #ffffff
+
+menu.items.active.bg: vertical gradient
+menu.items.active.bg.color: #8fb921
+menu.items.active.bg.colorTo: #bce94f
+menu.items.active.text.color: black
+
+!! General window settings
+window.label.text.justify: left
+
+!! focused window settings
+window.active.client.color: #909498
+
+window.active.title.bg: vertical gradient
+window.active.title.bg.color: #8fb921
+!! window.active.title.bg.colorTo: #ffffff
+window.active.title.bg.colorTo: #bce94f
+!! window.active.title.bg.interlace.color: #2a3d41
+window.active.title.bg.border.color: #ffffff
+
+window.active.handle.bg: flat
+window.active.handle.bg.color: #ffffff
+
+window.active.grip.bg: vertical gradient
+window.active.grip.bg.color: #8fb921
+window.active.grip.bg.colorTo: #bce94f
+
+window.active.label.bg: parentrelative
+window.active.label.text.color:  black
+
+window.active.button.unpressed.bg: parentrelative
+window.active.button.unpressed.image.color: #666666
+
+window.active.button.pressed.bg: parentrelative
+window.active.button.pressed.image.color: #000000
+
+!! unfocused window settings
+window.inactive.client.color: #404850
+
+window.inactive.title.bg: flat
+window.inactive.title.bg.color: #ffffff
+
+window.inactive.handle.bg: flat
+window.inactive.handle.bg.color: #ffffff
+
+window.inactive.grip.bg: flat
+window.inactive.grip.bg.color: #ffffff
+
+window.inactive.label.bg: parentrelative
+window.inactive.label.text.color: #cccccc
+
+window.inactive.button.unpressed.bg: flat
+window.inactive.button.unpressed.bg.color: #ffffff
+window.inactive.button.unpressed.image.color: #cccccc
+
+window.inactive.button.pressed.bg: flat 
+window.inactive.button.pressed.bg.color: #b8bbbd
+window.inactive.button.pressed.image.color: #d9d9d9
+
+!#buttons new
+window.active.button.disabled.bg: flat
+window.active.button.disabled.bg.color: #768b9c
+window.active.button.disabled.image.color: #768b9c
+
+window.inactive.button.disabled.bg: flat
+window.inactive.button.disabled.bg.color: #b8bbbd
+window.inactive.button.disabled.image.color: #b8bbbd
+
+window.active.button.toggled.bg: flat
+window.active.button.toggled.bg.color: #768b9c
+window.active.button.toggled.image.color: #d1d6db
+
+window.inactive.button.toggled.bg: flat
+window.inactive.button.toggled.bg.color: #b8bbbd
+window.inactive.button.toggled.image.color: #d9d9d9
+
+!! Global width settings
+borderWidth: 2
+padding.width: 1
+window.handle.width: 2
+window.client.padding.width: 0
+
+!! Miscellaneous settings
+border.color: #adadad
+
+!! font me!
+window.active.label.text.font: Bitstream Vera Sans:pixelsize=10:shadow=n
+window.inactive.label.text.font: Bitstream Vera Sans::pixelsize=10:shadow=n
+menu.items.font:  Bitstream Vera Sans:pixelsize=9
+menu.title.text.font: Bitstream Vera Sans:pixelsize=10:shadow=n
+!! This theme is from openbox-minuslab-theme-pack by Dave Foster <daf@minuslab.net>,
+!! released under the Artistic License 2.0.
+
+!! taqua3 by nightm4re <daf@minuslab.net>
+!! based off cerement's abs bb flux (http://absinthe182.com)
+!! colors are from a gvim scheme (unknown)
+
+!!---------------------------------------------------------------------------
+!! Dimensions
+
+border.width:				1
+border.color:				#A0A0A0
+
+padding.width:						2
+window.handle.width:				3
+window.client.padding.width:		0
+
+menu.overlap:				0
+
+!!---------------------------------------------------------------------------
+!! Fonts
+
+window.active.label.text.font:		Trebuchet Ms:pixelsize=11:shadow=n
+window.label.text.justify:		left
+
+menu.title.text.font:			Trebuchet Ms:pixelsize=11:shadow=n
+menu.title.text.justify:		center
+
+menu.items.font:			Trebuchet Ms:pixelsize=11
+
+!!---------------------------------------------------------------------------
+!! Menu Settings
+
+menu.title.bg:				flat gradient vertical
+menu.title.bg.color:			#dbf2ff
+menu.title.bg.colorTo:			#ffffff
+menu.title.text.color:			#0e8ed3
+
+menu.items.bg:				flat solid
+menu.items.bg.color:			#ffffff
+menu.items.text.color:			#707070
+
+menu.items.active.bg:			flat solid
+menu.items.active.bg.color:		#ccff00
+menu.items.active.text.color:		#008000
+
+menu.items.disabled.text.color:		#444438
+
+!!---------------------------------------------------------------------------
+!! Window Settings
+
+window.active.title.bg:			flat gradient vertical
+window.active.title.bg.color:		#dbf2ff
+window.active.title.bg.colorTo:		#ffffff
+
+window.active.border.color: #333333
+
+window.active.label.bg:				parentrelative
+window.active.label.text.color: 	#0e8ed3
+
+window.active.handle.bg:			flat gradient vertical
+window.active.handle.bg.color:		#dbf2ff
+window.active.handle.bg.colorTo:	#ffffff
+
+window.active.grip.bg:			flat solid
+window.active.grip.bg.color:		#0e8ed3
+
+window.inactive.title.bg:		flat solid
+window.inactive.title.bg.color:		#ffffff
+
+window.inactive.border.color: #A0A0A0
+
+window.inactive.label.bg:		parentrelative
+window.inactive.label.text.color:	#707070
+
+window.inactive.handle.bg:		flat solid
+window.inactive.handle.bg.color:	#ffffff
+
+window.inactive.grip.bg:		flat solid
+window.inactive.grip.bg.color:		#ffffff
+
+!!---------------------------------------------------------------------------
+!! Button Settings
+
+window.active.button.unpressed.bg:			parentrelative 
+window.active.button.unpressed.image.color:		#999999
+
+window.active.button.pressed.bg:			flat solid border
+window.active.button.pressed.bg.color:			#ccff00
+window.active.button.pressed.image.color:		#008000
+window.active.button.pressed.bg.border.color:	#008000
+
+window.active.button.hover.bg:			flat solid border 
+window.active.button.hover.bg.color:			#ffffff
+window.active.button.hover.image.color:			#999999
+window.active.button.hover.bg.border.color:		#999999
+
+window.active.button.disabled.bg:			parentrelative
+window.active.button.disabled.image.color:		#ccff00
+
+window.active.button.toggled.bg:			flat solid border
+window.active.button.toggled.bg.color:			#F0F0F0
+window.active.button.toggled.image.color:		#22221c
+window.active.button.toggled.border.color:      #cccccc
+
+window.inactive.button.unpressed.bg:			parentrelative
+window.inactive.button.unpressed.image.color:		#dddddd
+
+window.inactive.button.hover.bg:			flat solid border
+window.inactive.button.hover.bg.color:			#ffffff
+window.inactive.button.hover.image.color:			#999999
+window.inactive.button.hover.bg.border.color:		#999999
+
+window.inactive.button.pressed.bg:			flat solid border
+window.inactive.button.pressed.bg.color:			#ccff00
+window.inactive.button.pressed.image.color:		#008000
+window.inactive.button.pressed.bg.border.color:	#008000
+
+window.inactive.button.disabled.bg:			parentrelative	
+window.inactive.button.disabled.image.color:		#eeeeee
+
+window.inactive.button.toggled.bg:			flat solid border
+window.inactive.button.toggled.bg.color:			#dddddd
+window.inactive.button.toggled.image.color:		#22221c
+!! This theme is from openbox-minuslab-theme-pack by Dave Foster <daf@minuslab.net>,
+!! released under the Artistic License 2.0.
+
+!! Swordfish by GaMMa
+!! More themes @ http://www.gammaradiation.tk/
+!! Menu settings
+
+menu.title.bg: flat
+menu.title.bg.color: #424242
+menu.title.text.color: #ffffff
+menu.title.text.justify: left
+
+menu.items.bg: flat solid
+menu.items.bg.color: #ffffff
+menu.items.bg.border.color: #bbb8a9
+menu.items.text.color: #81807c
+menu.items.justify: left
+
+menu.items.disabled.text.color: #d7d7d7
+menu.bullet.image.color: #000000
+menu.bullet.selected.image.color: #ffffff
+
+menu.items.active.bg: flat border
+menu.items.active.bg.color: #f1f1f1
+menu.items.active.bg.border.color: #dbdbdb
+menu.items.active.text.color: black
+
+!! General window settings
+window.label.text.justify: left
+
+!! focused window settings
+window.active.client.color: #909498
+
+window.active.title.bg: focus: flat
+window.active.title.bg.color: #424242
+window.active.title.bg.border.color: #ffffff
+
+window.active.handle.bg: flat
+window.active.handle.bg.color: #f3f3f3
+window.active.grip.bg: flat
+window.active.grip.bg.color: #424242
+
+window.active.label.bg: parentrelative
+window.active.label.text.color:  #ffffff
+
+window.active.button.unpressed.bg: flat
+window.active.button.unpressed.bg.color: #424242
+window.active.button.unpressed.image.color: #ffffff
+
+window.active.button.pressed.bg: flat
+window.active.button.pressed.bg.color: #424242
+window.active.button.pressed.image.color: #a7a7a7
+
+!! unfocused window settings
+window.inactive.client.color: #404850
+
+window.inactive.title.bg: flat
+! window.inactive.title.bg.color: #ffffff
+window.inactive.title.bg.color: #424242
+
+window.inactive.handle.bg: flat
+window.inactive.handle.bg.color: #ffffff
+
+window.inactive.grip.bg: flat
+window.inactive.grip.bg.color: #f3f3f3
+
+window.inactive.label.bg: parentrelative
+window.inactive.label.text.color: #b0b0b0
+
+window.inactive.button.unpressed.bg: flat
+window.inactive.button.unpressed.bg.color: #424242
+window.inactive.button.unpressed.image.color: #969696
+
+window.inactive.button.pressed.bg: flat vertical gradient
+window.inactive.button.pressed.bg.color: #cacaca
+window.inactive.button.pressed.bg.colorTo: #ffffff
+
+!#buttons new
+window.active.button.disabled.bg: flat vertical gradient
+window.active.button.disabled.bg.color: #eda88b
+!!window.active.button.disabled.bg.colorTo: #ed8d65
+window.active.button.disabled.bg.colorTo: #b66c4d
+window.active.button.disabled.image.color: #ffffff
+
+window.inactive.button.disabled.bg: flat vertical gradient
+window.inactive.button.disabled.bg.color: #d6d6d6
+window.inactive.button.disabled.bg.colorTo: #9a9a9a
+window.inactive.button.disabled.image.color: #969696
+
+window.active.button.toggled.bg: flat
+window.active.button.toggled.bg.color: #424242
+window.active.button.toggled.image.color: #a7a7a7
+
+window.inactive.button.toggled.bg: flat
+window.inactive.button.toggled.bg.color: #ffffff
+window.inactive.button.toggled.image.color: #969696
+
+!! Global width settings
+borderWidth: 2
+padding.width: 1
+window.handle.width: 2
+window.client.padding.width: 0
+
+!! Miscellaneous settings
+border.color: black
+
+!! font me!
+window.active.label.text.font: Bitstream Vera Sans:bold:pixelsize=10:shadow=y
+window.inactive.label.text.font: Bitstream Vera Sans:bold:pixelsize=10:shadow=n
+menu.items.font:  Bitstream Vera Sans:pixelsize=10
+menu.title.text.font: Bitstream Vera Sans:bold:pixelsize=11:shadow=y

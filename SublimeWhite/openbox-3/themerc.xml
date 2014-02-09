@@ -1,0 +1,137 @@
+<!-- This theme is from openbox-minuslab-theme-pack by Dave Foster <daf@minuslab.net>, released under the Artistic License 2.0. -->
+
+<?xml version="1.0"?>
+<openbox_theme version="1" xmlns="http://openbox.org/themerc">
+  <dimensions>
+    <handle>2</handle>
+    <padding x="1" y="1"/>
+  </dimensions>
+  <window>
+    <border>
+      <width>2</width>
+      <primary r="173" g="173" b="173" a="255"/>
+    </border>
+    <clientpadding x="0" y="0"/>
+    <justify>left</justify>
+    <active>
+      <clientpadding r="144" g="148" b="152" a="255"/>
+      <label>
+        <text>
+          <primary r="0" g="0" b="0" a="255"/>
+        </text>
+        <style>parentrelative</style>
+      </label>
+      <buttons>
+        <unpressed>
+          <image r="102" g="102" b="102" a="255"/>
+          <style>parentrelative</style>
+        </unpressed>
+        <pressed>
+          <image r="0" g="0" b="0" a="255"/>
+          <style>parentrelative</style>
+        </pressed>
+        <disabled>
+          <image r="118" g="139" b="156" a="255"/>
+          <style>flat</style>
+          <primary r="118" g="139" b="156" a="255"/>
+        </disabled>
+        <toggled-unpressed>
+          <image r="209" g="214" b="219" a="255"/>
+          <style>flat</style>
+          <primary r="118" g="139" b="156" a="255"/>
+        </toggled-unpressed>
+      </buttons>
+      <titlebar>
+        <style>vertical gradient</style>
+        <primary r="143" g="185" b="33" a="255"/>
+        <secondary r="188" g="233" b="79" a="255"/>
+        <border r="255" g="255" b="255" a="255"/>
+      </titlebar>
+      <handle>
+        <style>flat</style>
+        <primary r="255" g="255" b="255" a="255"/>
+      </handle>
+      <grip>
+        <style>vertical gradient</style>
+        <primary r="143" g="185" b="33" a="255"/>
+        <secondary r="188" g="233" b="79" a="255"/>
+      </grip>
+    </active>
+    <inactive>
+      <clientpadding r="64" g="72" b="80" a="255"/>
+      <label>
+        <text>
+          <primary r="204" g="204" b="204" a="255"/>
+        </text>
+        <style>parentrelative</style>
+      </label>
+      <buttons>
+        <unpressed>
+          <image r="204" g="204" b="204" a="255"/>
+          <style>flat</style>
+          <primary r="255" g="255" b="255" a="255"/>
+        </unpressed>
+        <pressed>
+          <image r="217" g="217" b="217" a="255"/>
+          <style>flat</style>
+          <primary r="184" g="187" b="189" a="255"/>
+        </pressed>
+        <disabled>
+          <image r="184" g="187" b="189" a="255"/>
+          <style>flat</style>
+          <primary r="184" g="187" b="189" a="255"/>
+        </disabled>
+        <toggled-unpressed>
+          <image r="217" g="217" b="217" a="255"/>
+          <style>flat</style>
+          <primary r="184" g="187" b="189" a="255"/>
+        </toggled-unpressed>
+      </buttons>
+      <titlebar>
+        <style>flat</style>
+        <primary r="255" g="255" b="255" a="255"/>
+      </titlebar>
+      <handle>
+        <style>flat</style>
+        <primary r="255" g="255" b="255" a="255"/>
+      </handle>
+      <grip>
+        <style>flat</style>
+        <primary r="255" g="255" b="255" a="255"/>
+      </grip>
+    </inactive>
+  </window>
+  <menu>
+    <border>
+      <width>2</width>
+      <primary r="173" g="173" b="173" a="255"/>
+    </border>
+    <justify>left</justify>
+    <title>
+      <text>
+        <primary r="0" g="0" b="0" a="255"/>
+      </text>
+      <style>vertical gradient</style>
+      <primary r="143" g="185" b="33" a="255"/>
+      <secondary r="188" g="233" b="79" a="255"/>
+    </title>
+    <inactive>
+      <primary r="102" g="102" b="102" a="255"/>
+    </inactive>
+    <disabled>
+      <primary r="215" g="215" b="215" a="255"/>
+    </disabled>
+    <active>
+      <text>
+        <primary r="0" g="0" b="0" a="255"/>
+      </text>
+      <style>vertical gradient</style>
+      <primary r="143" g="185" b="33" a="255"/>
+      <secondary r="188" g="233" b="79" a="255"/>
+    </active>
+    <entries>
+      <style>flat solid</style>
+      <primary r="255" g="255" b="255" a="255"/>
+    </entries>
+  </menu>
+</openbox_theme>

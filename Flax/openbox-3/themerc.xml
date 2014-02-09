@@ -1,0 +1,136 @@
+<!-- This theme is from openbox-minuslab-theme-pack by Dave Foster <daf@minuslab.net>, released under the Artistic License 2.0. -->
+
+<?xml version="1.0"?>
+<openbox_theme version="1" xmlns="http://openbox.org/themerc">
+  <dimensions>
+    <handle>3</handle>
+    <padding x="1" y="1"/>
+  </dimensions>
+  <window>
+    <border>
+      <width>1</width>
+      <primary r="34" g="34" b="28" a="255"/>
+    </border>
+    <clientpadding x="0" y="0"/>
+    <justify>right</justify>
+    <active>
+      <label>
+        <text>
+          <primary r="34" g="34" b="28" a="255"/>
+          <shadow>
+            <offset x="1" y="1"/>
+          </shadow>
+        </text>
+        <style>flat gradient crossdiagonal border</style>
+        <primary r="211" g="222" b="218" a="255"/>
+        <secondary r="159" g="191" b="193" a="255"/>
+      </label>
+      <buttons>
+        <unpressed>
+          <image r="34" g="34" b="28" a="255"/>
+          <style>parentrelative</style>
+        </unpressed>
+        <disabled>
+          <image r="159" g="191" b="193" a="255"/>
+          <style>parentrelative</style>
+        </disabled>
+        <pressed>
+          <style>flat gradient crossdiagonal border</style>
+          <primary r="211" g="222" b="218" a="255"/>
+          <secondary r="159" g="191" b="193" a="255"/>
+        </pressed>
+        <hover>
+          <style>flat solid border</style>
+          <primary r="230" g="230" b="224" a="255"/>
+        </hover>
+      </buttons>
+      <titlebar>
+        <style>flat solid</style>
+        <primary r="230" g="230" b="224" a="255"/>
+      </titlebar>
+      <handle>
+        <style>flat gradient crossdiagonal</style>
+        <primary r="211" g="222" b="218" a="255"/>
+        <secondary r="159" g="191" b="193" a="255"/>
+      </handle>
+      <grip>
+        <style>flat solid</style>
+        <primary r="159" g="191" b="193" a="255"/>
+      </grip>
+    </active>
+    <inactive>
+      <label>
+        <text>
+          <primary r="34" g="34" b="28" a="255"/>
+        </text>
+        <style>parentrelative</style>
+      </label>
+      <buttons>
+        <unpressed>
+          <image r="153" g="153" b="153" a="255"/>
+          <style>parentrelative</style>
+        </unpressed>
+        <disabled>
+          <style>flat solid</style>
+        </disabled>
+        <pressed>
+          <style>flat gradient crossdiagonal border</style>
+          <primary r="211" g="222" b="218" a="255"/>
+          <secondary r="159" g="191" b="193" a="255"/>
+        </pressed>
+        <hover>
+          <style>flat solid border</style>
+          <primary r="230" g="230" b="224" a="255"/>
+        </hover>
+      </buttons>
+      <titlebar>
+        <style>flat solid</style>
+        <primary r="230" g="230" b="224" a="255"/>
+      </titlebar>
+      <handle>
+        <style>flat solid</style>
+        <primary r="230" g="230" b="224" a="255"/>
+      </handle>
+      <grip>
+        <style>flat solid</style>
+        <primary r="230" g="230" b="224" a="255"/>
+      </grip>
+    </inactive>
+  </window>
+  <menu>
+    <border>
+      <width>1</width>
+      <primary r="34" g="34" b="28" a="255"/>
+    </border>
+    <justify>center</justify>
+    <overlap>0</overlap>
+    <title>
+      <text>
+        <primary r="34" g="34" b="28" a="255"/>
+        <shadow>
+          <offset x="1" y="1"/>
+        </shadow>
+      </text>
+      <style>flat gradient crossdiagonal</style>
+      <primary r="211" g="222" b="218" a="255"/>
+      <secondary r="159" g="191" b="193" a="255"/>
+    </title>
+    <inactive>
+      <primary r="34" g="34" b="28" a="255"/>
+    </inactive>
+    <disabled>
+      <primary r="68" g="68" b="56" a="255"/>
+    </disabled>
+    <active>
+      <text>
+        <primary r="34" g="34" b="28" a="255"/>
+      </text>
+      <style>flat solid</style>
+      <primary r="159" g="191" b="193" a="255"/>
+    </active>
+    <entries>
+      <style>flat solid</style>
+      <primary r="230" g="230" b="224" a="255"/>
+    </entries>
+  </menu>
+</openbox_theme>
